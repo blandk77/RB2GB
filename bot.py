@@ -4,7 +4,6 @@ from pytz import timezone
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 from config import Config
-from plugins import verification, metadata, thumbnail, file_rename, caption, prefix_suffix
 from aiohttp import web
 from route import web_server
 import pyrogram.utils
