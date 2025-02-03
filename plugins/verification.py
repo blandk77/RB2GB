@@ -4,10 +4,12 @@ from time import time
 from urllib3 import disable_warnings
 from pyrogram import Client, filters 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from config import Config.DB_URL as DATABASE_URL
+
 from cloudscraper import create_scraper
 from motor.motor_asyncio import AsyncIOMotorClient
+from config import Config
 
+DATABASE_URL = Config.DB_URL
 
 
 # Config Variables 😄
