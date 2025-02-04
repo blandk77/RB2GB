@@ -14,7 +14,7 @@ class Config(object):
 
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://envs.sh/jUp.jpg")
+    START_PIC   = os.environ.get("START_PIC", "")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1705634892').split()]
 
     # channels logs
@@ -118,5 +118,4 @@ For Example :-
 
 <code>By: @The_TGguy</code>
 
-💬 For Help Contact @TechifySupport
 """
