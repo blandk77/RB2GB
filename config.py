@@ -35,14 +35,14 @@ class Txt(object):
 
 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝖺𝗅𝗌𝗈 𝗌𝗎𝗉𝗉𝗈𝗋𝗍𝗌 𝖼𝗎𝗌𝗍𝗈𝗆 𝗍𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅, 𝖼𝗎𝗌𝗍𝗈𝗆 𝖼𝖺𝗉𝗍𝗂𝗈𝗇, 𝖼𝗎𝗍𝗈𝗆 𝗉𝗋𝖾𝖿𝗂𝗑 𝖺𝗇𝖽 𝗌𝗎𝖿𝖿𝗂𝗑.
 
-<b>𝘕𝘰𝘵𝘦 :</b> 𝘙𝘦𝘯𝘢𝘮𝘪𝘯𝘨 𝘖𝘧 𝘈𝘥𝘶𝘭𝘵 𝘊𝘰𝘯𝘵𝘦𝘯𝘵 𝘐𝘴 𝘚𝘵𝘳𝘪𝘤𝘵𝘭𝘺 𝘗𝘳𝘰𝘩𝘪𝘣𝘪𝘵𝘦𝘥. 𝘐𝘧 𝘠𝘰𝘶 𝘞𝘪𝘭𝘭 𝘋𝘰 𝘠𝘰𝘶 𝘞𝘪𝘭𝘭 𝘎𝘦𝘵 𝘗𝘦𝘳𝘮𝘢𝘯𝘦𝘯𝘵 𝘉𝘢𝘯."""
+"""
 
     ABOUT_TXT = """
-<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href='https://telegram.me/TechifyBots'>ʀᴇɴᴀᴍᴇ ɢᴇɴɪᴇ ʙᴏᴛ</a>
+<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href='https://telegram.me/The_TGguy'>𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝘂𝘆!!</a>
 ❍ ʜᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ
 ❍ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
 ❍ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹
-❍ ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/callownerbot'>ʀᴀʜᴜʟ</a>
+❍ ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/TGguy_Ownerobot'>◉⁠‿⁠◉</a>
 
 ➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ᴍᴏʀᴇ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</b>
 """
@@ -81,7 +81,7 @@ class Txt(object):
 ➲ /see_prefix: ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴘʀᴇꜰɪx.
 ➲ /del_prefix: ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴘʀᴇꜰɪx.
 
-» ᴇx: `/set_prefix @TechifyBots`
+» ᴇx: `/set_prefix @The_TGguy`
 """
 
     SUFFIX = """<b>» <u>ᴛᴏ ꜱᴇᴛ ᴄᴜꜱᴛᴏᴍ sᴜꜰꜰɪx</u></b>
@@ -90,7 +90,7 @@ class Txt(object):
 ➲ /see_suffix: ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ sᴜꜰꜰɪx.
 ➲ /del_suffix: ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ sᴜꜰꜰɪx.
 
-» ᴇx: `/set_suffix @TechifyBots`
+» ᴇx: `/set_suffix @The_TGguy`
 """
 
     PROGRESS_BAR = """\n
@@ -107,16 +107,16 @@ class Txt(object):
 
 ❣️ 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛𝑠 𝑎𝑟𝑒 𝑟𝑒𝑎𝑙𝑙𝑦 𝑎𝑝𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑒𝑑 𝑖𝑡 ℎ𝑒𝑙𝑝𝑠 𝑖𝑛 𝑏𝑜𝑡 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡
 
-💖 𝐔𝐏𝐈 𝐈𝐃 : `TechifyBots@UPI`
+💖 𝐔𝐏𝐈 𝐈𝐃 : `7305347700@pytes`
 
-💗 𝐐𝐑 𝐂𝐨𝐝𝐞 : <b><a href='https://TechifyBots.github.io/Donate'>𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a></b>
+💗 𝐐𝐑 𝐂𝐨𝐝𝐞 : <b><a href=''>𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a></b>
 """
 
     SEND_METADATA = """🖼️ 𝗛𝗼𝘄 𝗧𝗼 𝗦𝗲𝘁 𝗖𝘂𝘀𝘁𝗼𝗺 𝗠𝗲𝘁𝗮𝗱𝗮𝘁𝗮
 
 For Example :-
 
-<code>By: @TechifyBots</code>
+<code>By: @The_TGguy</code>
 
 💬 For Help Contact @TechifySupport
 """
