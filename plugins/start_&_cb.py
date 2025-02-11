@@ -8,6 +8,9 @@ from config import Config, Txt
 @Client.on_message(filters.private & filters.command("start"))
 async def start(client, message):
     user = message.from_user
+first_message = await message.reply('𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝....')
+await asyncio.sleep(1)
+await first_message.delete()
     await jishubotz.add_user(client, message)                
     button = InlineKeyboardMarkup([
         [InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about'),
