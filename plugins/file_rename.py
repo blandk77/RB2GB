@@ -42,9 +42,6 @@ async def rename_start(client, message):
     except Exception as e:
         print(f"Error in rename_start: {e}")
 
-    await asyncio.sleep(600)
-    await message.delete()
-
 @Client.on_message(filters.private & filters.reply)
 async def refunc(client, message):
     reply_message = message.reply_to_message
