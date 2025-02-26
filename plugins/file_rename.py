@@ -42,6 +42,9 @@ async def rename_start(client, message):
     except Exception as e:
         print(f"Error in rename_start: {e}")
 
+    await asyncio.sleep(600)
+    await message.delete()
+    
 @Client.on_message(filters.private & filters.reply)
 async def refunc(client, message):
     reply_message = message.reply_to_message
@@ -195,7 +198,7 @@ async def doc(bot, update):
         )
 
         deletion_msg = await sent_message.reply(
-            text="**🗑 This file will auto-delete in 30 minutes. Save it now!**",
+            text="**Join @The_TGguy for more bots for free!!**",
         )
 
     except Exception as e:          
@@ -212,8 +215,6 @@ async def doc(bot, update):
 
     await asyncio.sleep(1800)
     try:
-        await sent_message.delete()
-        await forwarded_message.delete()
         await deletion_msg.delete()
     except Exception as e:
         print(f"Error deleting messages after 30 minutes: {e}")
