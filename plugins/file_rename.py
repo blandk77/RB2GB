@@ -139,7 +139,7 @@ async def doc(bot, update):
         except Exception as e:
             return await ms.edit(text=f"Your Caption Error: ({e})")             
     else:
-        caption = f"**{new_filename}**\n\n**User:** {user_name}\n**User ID:** {user_id}"
+        caption = f"**{new_filename}**"
 
     if (media.thumbs or c_thumb):
         if c_thumb:
@@ -198,7 +198,7 @@ async def doc(bot, update):
         )
 
         deletion_msg = await sent_message.reply(
-            text="**Join @The_TGguy for more bots for free!!**",
+            text="**If you liked the bot want us to help provide more bots for free, the help us buy donating any amount! use /donate to know more! thanks 😊**",
         )
 
     except Exception as e:          
